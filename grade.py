@@ -1,4 +1,9 @@
-def calc_grade(*scores):
+def calc_grade(*scores):  
+    
+    # I  used * to unpack or breakdown the list of scores 
+    # And to pass its elements as individual arguements into the calc_grade function
+     
+    
     """
     This function takes multiple student scores as an input 
     and prints out the corresponding based on the criteria.
@@ -33,5 +38,7 @@ def calc_grade(*scores):
         
         print(f"Score: {score} -> Grade: {grade}")
 
+
+#example score handling
 calc_grade(85, 72, 90, 71, 65, 31, 56, 100, 110, 48)
 
